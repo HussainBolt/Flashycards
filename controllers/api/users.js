@@ -5,7 +5,7 @@ const bcrypt = require('bcrypt')
 module.exports = {
     create,
     login,
-    checkToken,
+    checkToken
 }
 
 async function create(req, res) {
